@@ -11,4 +11,9 @@ class Board
     @ships << ship
   end
 
+  def receive_hit(position)
+    self.ships.find {|ship| ship.position == position} ? "Hit!" : "Miss!"
+  end
+
+
 end
