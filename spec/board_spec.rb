@@ -19,7 +19,8 @@ describe Board do
   end
 
 
-
+  #can report if all ships are sunk
+  #can report if not all ships are sunk
 
 
 
