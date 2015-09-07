@@ -19,5 +19,8 @@ class Player
     @hits += 1 if board.ships.find {|ship| ship.position == position}
   end
 
+  def game_over?
+    self.board.ships.count == self.hits
+  end
 
 end
