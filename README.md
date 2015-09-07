@@ -3,20 +3,28 @@
 This is a program on the Battleships game.
 
 Classes
-1. Player
+
+Player
+ 
 Responsibilities:
+
 * player can place ships
 * you can have two players
 * player can shoot
 
-2. Ship
+Ship
+
 Responsibilities:
+
 * different sizes
 * can be hit or miss
 * can sink
 * place in a direction
 
-3. Board
+Board
+
+Responsibilities:
+
 * a board with cells
 * takes ships
 * status to see if hit or not
